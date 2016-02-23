@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+
+    <link href="Content/bootstrap.css" rel="stylesheet"/>
+    <link href="Content/bootstrap-theme.css" rel="stylesheet"/>
+    <script src="scripts/jquery-1.10.2.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/bootbox.js"></script>
+    <script src="scripts/jquery.signalR-2.1.2.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="scripts/Chat.js"></script>
+</head>
+<body>
+<div id="chat" style="width: 100%; height: 600px;">
+    <div id="titulo" style="width: 100%;">Super Chat 1.0</div>
+    
+    <div id="contenido" style="width: 100%; height: 500px;">
+        <div id="usuarios" style="width: 20%; height: 500px; float: left;">
+
+            <ul id="conectados"></ul>
+
+        </div>
+        <div id="mensajes" style="width: 78%; height: 500px;"></div>
+    </div>
+<div id="barraMensaje" style="clear: both; width: 100%;">
+    <input type="text" id="text"/>
+    <button type="button" id="btnEnviar">Enviar</button>
+
+    </div>
+</div>
+</body>
+</html>
